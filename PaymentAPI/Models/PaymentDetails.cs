@@ -7,15 +7,15 @@ namespace PaymentAPI.Models
     {
         [Key]
         public int PaymentDetailId { get; set; }
-        [Column (TypeName ="navarchar (100)")]
+        [Column (TypeName ="nvarchar (100)")]
         public string CardOwnerName { get; set; }
-        [Column(TypeName = "navarchar (16)")]
+        [Column(TypeName = "nvarchar (16)")]
 
         public string CardNumber { get; set; }
-        [Column(TypeName = "navarchar (5)")]
+        [Column(TypeName = "nvarchar (5)")]
 
         public string ExpritionDate { get; set; }
-        [Column(TypeName = "navarchar (3)")]
+        [Column(TypeName = "nvarchar (3)")]
         public string SecurityCode { get; set; }
 
 
