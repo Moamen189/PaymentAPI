@@ -41,8 +41,7 @@ namespace PaymentAPI.Controllers
             return paymentDetails;
         }
 
-        // PUT: api/PaymentDetails/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+       
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPaymentDetails(int id, PaymentDetails paymentDetails)
         {
