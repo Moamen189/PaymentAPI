@@ -1,0 +1,24 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "just testnpm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "angular",
+    "learn"
+  ],
+  "author": "moamen",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^14.2.1",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
