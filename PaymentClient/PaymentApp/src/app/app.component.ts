@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,6 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export class AppComponent {
   title = 'PaymentApp';
 }
