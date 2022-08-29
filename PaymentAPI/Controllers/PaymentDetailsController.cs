@@ -40,8 +40,8 @@ namespace PaymentAPI.Controllers
 
             return paymentDetails;
         }
+        // PUT: api/PaymentDetails/5
 
-       
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPaymentDetails(int id, PaymentDetails paymentDetails)
         {
